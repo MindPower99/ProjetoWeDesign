@@ -114,6 +114,8 @@ ano_atual = ano_atual.getFullYear();
 
 document.getElementById("current_year").innerHTML = ano_atual;
 
+// API key do Google: AIzaSyA-4c7JBNU_fgRxEMGR7dD3oO_VclTDQmA
+
 
 
 

@@ -368,10 +368,10 @@
                     <div class="contato small-5 medium-3 small-offset-1 medium-offset-0 columns">
                         <h4 class="footer-section-title">Contato</h4>
                         <p>
-                            Av. Paulista, 500<br>
+                            Av. Águia de Haia, 2633<br>
                             São Paulo/SP<br>
-                            T. 2245-0977<br>
-                            contato@wedesign.com.br
+                            T. 11998701209<br>
+                            gabriel.jorge19999@gmail.com
                         </p>
                     </div>
                     
@@ -386,6 +386,23 @@
                     <div class="como-chegar small-5 medium-3 small-offset-1 medium-offset-0 columns">
                         <h4 class="footer-section-title">Como chegar</h4>
                         <div id="map"></div>
+
+                         <script>
+                                // Initialize and add the map
+                                function initMap() {
+                                  // The location of Uluru
+                                  var uluru = {lat: -23.523322, lng: -46.475231};
+                                  // The map, centered at Uluru
+                                  var map = new google.maps.Map(
+                                      document.getElementById('map'), {zoom: 15, center: uluru});
+                                  // The marker, positioned at Uluru
+                                  var marker = new google.maps.Marker({position: uluru, map: map});
+                                }
+                        </script>
+
+                        <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-4c7JBNU_fgRxEMGR7dD3oO_VclTDQmA&callback=initMap">
+    </script>
                     </div>
                     
                     <hr></hr>
